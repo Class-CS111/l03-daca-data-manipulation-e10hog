@@ -39,8 +39,8 @@ public class Main
 		calculatedAge = (int) (JDNToday - JDNBirthday) / 365;
 		
 		/***** OUTPUT SECTION *****/
-		System.out.println("Julian Day Number for today's date" + todayDateMonth + "/" + todayDateDay + "/" + todayDateYear + ", is " + JDNToday);
-		System.out.println("Julian Day Number for birthday" + birthdayMonth + "/" + birthdayDay + "/" + birthdayYear + ", is " + JDNBirthday);
+		System.out.println("Julian Day Number for today's date, " + todayDateMonth + "/" + todayDateDay + "/" + todayDateYear + ", is " + JDNToday);
+		System.out.println("Julian Day Number for birthday, " + birthdayMonth + "/" + birthdayDay + "/" + birthdayYear + ", is " + JDNBirthday);
 		System.out.println("The differences in days is " + (JDNToday - JDNBirthday) + " which makes you approximately " + calculatedAge + " years old!");
   }
 }
